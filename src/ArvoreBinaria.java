@@ -187,7 +187,7 @@ public class ArvoreBinaria {
                         if(noPai2.getDireito().getDireito() == null){
                             noFilho2 = noPai2.getDireito();
                             break;
-                        } else{
+                        } else{// noPai2 "anda" para a direita em busca do maior nó do lado esquerdo
                             noPai2 = noPai2.getDireito();
                         }
                     }
