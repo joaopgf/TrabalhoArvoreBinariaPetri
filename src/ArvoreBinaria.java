@@ -21,7 +21,7 @@ public class ArvoreBinaria {
             No aux = this.raiz;// cria auxiliar para ajudar no método
             while(true){
 
-                if(aux.getConteudo() == novoNo.getConteudo()){
+                if(aux.getConteudo() == novoNo.getConteudo()){// impede que um nó de mesmo conteúdo seja inserido na árvore
                     System.out.println("O nó já existe na árvore.");
                     return;
                 }
