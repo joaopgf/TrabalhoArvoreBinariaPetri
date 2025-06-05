@@ -5,7 +5,6 @@ public class Main {
     arvore.inserir(30);
     arvore.inserir(70);
     arvore.inserir(40);
-    arvore.inserir(40);
     arvore.inserir(60);
     arvore.inserir(80);
     arvore.inserir(15);
@@ -16,6 +15,7 @@ public class Main {
     arvore.inserir(24);
     arvore.inserir(23);
     arvore.visualizar();
+        System.out.println(" ");
     arvore.removerNo1(50);
     arvore.visualizar();
 

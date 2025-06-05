@@ -20,6 +20,12 @@ public class ArvoreBinaria {
         } else{
             No aux = this.raiz;// cria auxiliar para ajudar no método
             while(true){
+
+                if(aux.getConteudo() == novoNo.getConteudo()){
+                    System.out.println("O nó já existe na árvore.");
+                    return;
+                }
+
                 if(novoNo.getConteudo() > aux.getConteudo()){// se o novo nó é maior que o aux
                     if(aux.getDireito() == null){// se aux não tem filho a direita, novo nó vira o seu novo filho a direita
                         aux.setDireito(novoNo);// define filho do aux
