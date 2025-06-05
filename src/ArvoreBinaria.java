@@ -153,7 +153,6 @@ public class ArvoreBinaria {
                         noPai.setEsquerdo(null);// apontamento a esquerda fica nulo
                     }
                 }
-
             break;
 
             case 1:// se o filho tiver apenas um filho a esquerda
